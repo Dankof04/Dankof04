@@ -1,5 +1,5 @@
 # 💫 About Me:
-Actually studying Computer Engineering on Universidad de Burgos<br><br>Language Processors<br>
+Actually studying Computer Engineering in Universidad de Burgos<br><br>Language Processors<br>
 
 
 ## 🌐 Socials:
