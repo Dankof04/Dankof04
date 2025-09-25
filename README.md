@@ -1,7 +1,13 @@
 # 💫 About Me:
-Student of the Computer Engineering Degree at Universidad de Burgos
+* Student of the Computer Engineering Degree at [**Universidad de Burgos**](https://www.ubu.es)
 
 ![Universidad de Burgos](https://github.com/Dankof04/Dankof04/blob/main/UBU_logo-white.svg)
+
+* Cybersecurity enthusiast
+
+* Flipper Zero user
+
+* Actually developing myself in **Languaje Processors**, **Intelligent Computing Systems** and **Image Processing**
 
 
 
