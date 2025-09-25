@@ -1,5 +1,6 @@
 # 💫 About Me:
 Student of the Computer Engineering Degree at Universidad de Burgos
+
 ![Universidad de Burgos](https://github.com/Dankof04/Dankof04/blob/main/UBU_logo-white.svg)
 
 
