@@ -1,0 +1,37 @@
+name: Generate Snake Animation
+
+# Esto controla cuándo se ejecuta la acción
+on:
+  # Se ejecuta automáticamente cada 12 horas
+  schedule:
+    - cron: "0 */12 * * *"
+  
+  # También te permite ejecutarlo manualmente desde la pestaña "Actions"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Generate Snake SVG
+        uses: Platane/snk@v3
+        with:
+          # Tu nombre de usuario de GitHub
+          github_user_name: ${{ github.repository_owner }}
+          
+          # La acción leerá tus contribuciones y creará un archivo SVG
+          # Este es el archivo que mostrarás en tu perfil
+          outputs: dist/snake.svg
+        
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          # El token para poder escribir en el repo
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
