@@ -28,7 +28,9 @@ jobs:
           
           # La acción leerá tus contribuciones y creará un archivo SVG
           # Este es el archivo que mostrarás en tu perfil
-          outputs: dist/snake.svg?palette=github-dark
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
         
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
